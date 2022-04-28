@@ -10,12 +10,49 @@ body {
       "H H"
       "G D"
       "B B";
-  }
+}
   
-  * {
+* {
     box-sizing: border-box;
     font-size: 17px;
-  }
+}
+
+.logo {
+    height: 100px;
+}
+  
+.entete {
+    grid-area: H;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: #013662;
+}
+  
+.entete a {
+    font-size: 25px;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+.entete .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 550px;
+}
 
 .agauche {
     border-style: dotted;
@@ -31,11 +68,4 @@ body {
     margin-left: 15px;
     float: left;
     background-color: aliceblue;
-}
-
-.entete {
-    border-style: dotted;
-    height: 500px;
-    width: 55%;
-    margin-top: auto;
 }
