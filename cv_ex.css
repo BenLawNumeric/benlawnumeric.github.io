@@ -80,3 +80,33 @@ a:hover {
   a {
     margin-left: 5px;
   }
+
+.title {
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: underline;
+}
+  
+  
+.adroite {
+    grid-area: D;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    color: #372C24;
+    margin: 0 auto;
+}
+  
+.adroite .badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFF8E4;
+    padding: 20px 45px;
+    border: 2px solid wheat;
+    border-radius: 4px;
+    height: 800px;
+    width: 600px;
+    box-shadow: rgba(210, 182, 99, 0.26) 10px 10px;
+    font-weight: 500;
+}
