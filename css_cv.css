@@ -1,0 +1,131 @@
+body {
+    height: 100%;
+    margin: 0 0;
+    font-family: 'Roboto', sans-serif;
+    background: #FFF8E4;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+      "H H"
+      "G D"
+      "B B";
+}
+  
+* {
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.logo {
+    height: 100px;
+}
+  
+.entete {
+    grid-area: H;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: #013662;
+}
+  
+.entete a {
+    font-size: 25px;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+.entete .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 550px;
+}
+
+.agauche {
+    grid-area: G;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: fit-content;
+    color: white;
+  }
+  
+  .agauche img {
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .agauche .badge {
+    background: #013662;
+    border: 10px solid #013662;
+    border-radius: 4px;
+    box-shadow: rgba(1, 54, 98, 0.26) 10px 10px;
+  }
+  
+  .agauche .badge p,
+  a {
+    margin-left: 5px;
+  }
+
+.title {
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: underline;
+}
+  
+  
+.adroite {
+    grid-area: D;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    color: #372C24;
+    margin: 0 auto;
+}
+  
+.adroite .badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFF8E4;
+    padding: 20px 45px;
+    border: 2px solid wheat;
+    border-radius: 4px;
+    height: 800px;
+    width: 600px;
+    box-shadow: rgba(210, 182, 99, 0.26) 10px 10px;
+    font-weight: 500;
+}
+
+.top-zigouigoui {
+    height: 40px;
+    align-self: flex-start;
+}
+  
+.bottom-zigouigoui {
+    height: 40px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+  
+.enbas {
+    grid-area: B;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #013662;
+}
