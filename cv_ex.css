@@ -110,3 +110,22 @@ a:hover {
     box-shadow: rgba(210, 182, 99, 0.26) 10px 10px;
     font-weight: 500;
 }
+
+.top-zigouigoui {
+    height: 40px;
+    align-self: flex-start;
+}
+  
+.bottom-zigouigoui {
+    height: 40px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+  
+.enbas {
+    grid-area: B;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #013662;
+}
