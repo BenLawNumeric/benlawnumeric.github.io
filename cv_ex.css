@@ -55,17 +55,28 @@ a:hover {
 }
 
 .agauche {
-    border-style: dotted;
-    height: 120px;
-    width: 30%;
-    margin-right: 550px;
-}
-
-.agauche {
-    border-style: double;
-    height: 367px;
-    width: 15%;
-    margin-left: 15px;
-    float: left;
-    background-color: aliceblue;
-}
+    grid-area: G;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: fit-content;
+    color: white;
+  }
+  
+  .agauche img {
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .agauche .badge {
+    background: #013662;
+    border: 10px solid #013662;
+    border-radius: 4px;
+    box-shadow: rgba(1, 54, 98, 0.26) 10px 10px;
+  }
+  
+  .agauche .badge p,
+  a {
+    margin-left: 5px;
+  }
