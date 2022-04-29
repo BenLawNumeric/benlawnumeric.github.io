@@ -38,7 +38,7 @@ body {
   
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
   
@@ -100,24 +100,23 @@ a:hover {
 .adroite .badge {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
     justify-content: space-between;
     background: #FFF8E4;
     padding: 20px 45px;
     border: 2px solid wheat;
     border-radius: 4px;
-    height: 800px;
-    width: 600px;
     box-shadow: rgba(210, 182, 99, 0.26) 10px 10px;
     font-weight: 500;
 }
 
 .top-zigouigoui {
-    height: 40px;
+    height: 20px;
     align-self: flex-start;
 }
   
 .bottom-zigouigoui {
-    height: 40px;
+    height: 20px;
     justify-self: flex-end;
     align-self: flex-end;
 }
@@ -127,5 +126,10 @@ a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    align-items: center;
     background-color: #013662;
+}
+
+.enbas img {
+    height: 100%;
 }
