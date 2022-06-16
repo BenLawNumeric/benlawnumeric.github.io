@@ -7,6 +7,10 @@
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  inset: 10px;
     }
     
     .wrapper{
