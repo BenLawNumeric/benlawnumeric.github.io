@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    margin: 0 0;
+    font-family: 'Roboto', sans-serif;
+    background: #FFF8E4;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+      "H H"
+      "G D"
+      "B B";
+}
+  
+* {
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.Partie1 { 
+grid-area: H;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 50px;
+width: 100%;
+background-color: #013662;
+}
