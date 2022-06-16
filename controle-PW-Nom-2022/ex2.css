@@ -4,12 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #FFF8E4;
     display: grid;
-    grid-template-columns: 35% 65%;
-    grid-template-rows: 10% 80% 10%;
-    grid-template-areas:
-      "H H"
-      "G D"
-      "B B";
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-columns: minmax(100px, auto);
 }
   
 * {
@@ -17,8 +14,19 @@ body {
     font-size: 17px;
 }
 
-.Partie1 { 
-grid-area: H;
+.introduction {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: #013662;
+}
+
+.partie1 { 
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -26,4 +34,24 @@ align-items: center;
 padding: 0 50px;
 width: 100%;
 background-color: #013662;
+}
+
+.partie2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: #013662;
+}
+
+.partie3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: #013662;
 }
