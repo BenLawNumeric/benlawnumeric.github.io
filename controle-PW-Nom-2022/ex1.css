@@ -1,0 +1,64 @@
+body {
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+      "H H"
+      "G D"
+      "B B";
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.entete {
+    grid-area: H;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.entete a {
+    font-size: 25px;
+}
+      
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.gauche {
+        grid-area: G;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        margin: 0 auto;
+        width: fit-content;
+        color: black;
+}
+
+.droite {
+    grid-area: D;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    color: #372C24;
+    margin: 0 auto;
+}
+
+.bas {
+    grid-area: B;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
