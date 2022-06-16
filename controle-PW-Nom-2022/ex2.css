@@ -4,6 +4,22 @@ ul {
   padding: .5em;
 }
 
+h1 {
+    color: red;
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    color: royalblue
+}
+
+h4 {
+    color:#013662
+}
+
 body {
     height: 100%;
     margin: 0 0;
