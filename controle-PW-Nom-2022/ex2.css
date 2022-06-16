@@ -5,7 +5,10 @@ ul {
 }
 
 h1 {
-    color: red;
+    color: #375e97;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #375e97;
 }
 
 h2 {
@@ -55,6 +58,7 @@ align-items: center;
 padding: 0 50px;
 width: 100%;
 background-color: #013662;
+margin-bottom: 10px;
 }
 
 .partie2 {
@@ -65,6 +69,7 @@ background-color: #013662;
     padding: 0 50px;
     width: 100%;
     background-color: #013662;
+    margin-bottom: 10px;
 }
 
 .partie3 {
@@ -75,4 +80,5 @@ background-color: #013662;
     padding: 0 50px;
     width: 100%;
     background-color: #013662;
+    margin-bottom: 10px;
 }
