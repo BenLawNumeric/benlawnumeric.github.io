@@ -38,6 +38,7 @@ a {
 .gauche {
         grid-area: G;
         display: flex;
+        border-style: inset;
         flex-direction: column;
         padding-top: 100px;
         margin: 0 auto;
@@ -54,7 +55,7 @@ a {
     margin: 0 auto;
 }
 
-.bas {
+.pied {
     grid-area: B;
     display: flex;
     align-items: flex-end;
