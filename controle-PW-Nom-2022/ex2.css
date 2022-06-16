@@ -1,3 +1,9 @@
+p, 
+ul {
+  border: 2px solid wheat ;
+  padding: .5em;
+}
+
 body {
     height: 100%;
     margin: 0 0;
@@ -22,7 +28,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    width: 100%;
     background-color: #013662;
 }
 
