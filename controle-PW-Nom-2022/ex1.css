@@ -51,7 +51,24 @@
       color: #000;
       }
     
-    .col1{
+    .col1 {
         width: 30%;
         padding-top: 20px;
     }
+
+    .col2 {
+      width: 50%;
+    }
+  
+    .col3 {
+      width: 30%;
+      padding-top: 20px;
+      text-align: end;
+     }
+  
+     .col5 {
+      margin-left: 25%;
+      margin-right: 25%;
+     }
+
+     
