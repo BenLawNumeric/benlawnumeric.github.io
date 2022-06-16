@@ -16,3 +16,14 @@
         flex-direction: column;
       }
     
+      .content {
+        display: flex;
+        flex: 1;
+        background: #999;
+        color: #000; 
+      }
+    
+    
+      .col1{
+        width: 20%;
+      }
