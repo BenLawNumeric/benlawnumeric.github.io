@@ -45,13 +45,13 @@
       flex-direction: column;
     }
     
-      .content {
-        display: flex;
-        flex: 1;
-        background: #999;
-        color: #000; 
+    .content {
+      display: flex;
+      flex: 1;
+      color: #000;
       }
     
-      .col1 {
-        width: 20%;
-      }
+    .col1{
+        width: 30%;
+        padding-top: 20px;
+    }
