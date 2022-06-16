@@ -8,3 +8,11 @@
     margin-left: 10px;
     margin-right: 10px;
     }
+    
+    .wrapper{
+        min-height: 100vh;
+        background: #ccc;
+        display: flex;
+        flex-direction: column;
+      }
+    
