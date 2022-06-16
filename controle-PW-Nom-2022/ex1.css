@@ -37,7 +37,17 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color: grey;
   }
+
+.titre4 {
+    font-style : italic;
+    flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
 
 .wrapper{
   background: white;
@@ -53,17 +63,28 @@
     
 .col1 {
   width: 30%;
-  padding-top: 20px;
+  margin-top: 10px;
+  height: 180px;
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+  margin: 2px;
   }
 
 .col2 {
   width: 50%;
+  margin: 2px;
+border:dashed;
   }
   
 .col3 {
   width: 30%;
-  padding-top: 20px;
+  margin-top: 10px;
   text-align: end;
+height: 160px;
+border-top: solid 1px;
+border-right: solid 1px;
+border-bottom: solid 1px;
   }
   
 .col5 {
@@ -72,7 +93,7 @@
     }
 
 .colspecial{
-  margin-bottom: 10px;
+  margin-bottom: 32px;
   border-right: solid 1px;
   border-left: solid 1px;
   margin-left: 16%;
