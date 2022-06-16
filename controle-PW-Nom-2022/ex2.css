@@ -66,7 +66,7 @@ body {
 }
 
 .partie2 {
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
     display: grid;
     flex-direction: column;
     justify-content: space-between;
@@ -76,7 +76,6 @@ body {
     background-color: #013662;
     margin-bottom: 10px;
     text-align: center justify;
-
 }
 
 .partie3 {
@@ -90,4 +89,16 @@ body {
     background-color: #013662;
     margin-bottom: 10px;
     text-align: center justify;
+}
+
+.enbas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    background-color: #013662;
+}
+
+.enbas img {
+    height: 55%;
 }
