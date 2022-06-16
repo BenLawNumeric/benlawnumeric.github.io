@@ -1,9 +1,9 @@
 .fond {
-    background-color: grey;
+    background-color: lightgrey;
 }
     
 .titre1 {
-  background: white;
+  background: lightgrey;
   font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -14,7 +14,7 @@
   }
     
 .titre2 {
-  background: white;
+  background: grey;
   font-size: 20px;
   margin-left: 25%;
   margin-right: 25%;
@@ -24,7 +24,7 @@
     }
     
 .titre3 {
-  ont-size: 20px;
+  font-size: 20px;
   margin-left: 75%;
   flex-direction: column;
   justify-content: center;
@@ -33,43 +33,43 @@
     }
 
 .titre4 {
-      font-style : italic;
-      flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    }
+  font-style : italic;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
 
-  .wrapper{
-      background: white;
-      display: flex;
-      flex-direction: column;
-    }
+.wrapper{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  }
     
-    .content {
-      display: flex;
-      flex: 1;
-      color: #000;
-      }
+.content {
+  display: flex;
+  flex: 1;
+  color: #000;
+  }
     
-    .col1 {
-        width: 30%;
-        padding-top: 20px;
-    }
+.col1 {
+  width: 30%;
+  padding-top: 20px;
+  }
 
-    .col2 {
-      width: 50%;
+.col2 {
+  width: 50%;
+  }
+  
+.col3 {
+  width: 30%;
+  padding-top: 20px;
+  text-align: end;
+  }
+  
+.col5 {
+  margin-left: 25%;
+  margin-right: 25%;
     }
-  
-    .col3 {
-      width: 30%;
-      padding-top: 20px;
-      text-align: end;
-     }
-  
-     .col5 {
-      margin-left: 25%;
-      margin-right: 25%;
-     }
 
 .colspecial{
   margin-bottom: 10px;
@@ -82,4 +82,8 @@
 .lastdiv{
   margin-right: 20px;
   margin-left: 20px;
+}
+
+body {
+  font-size: 16px;
 }
